@@ -5,7 +5,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ExtentReportsSpicejet {
 	
-public static ExtentReports GetReport() {
+		public static ExtentReports GetReport() {
 		
 		String path="C:\\Users\\HAPPY\\Desktop\\GUVI Project\\SpiceJet\\Reports\\Spicejetreport.html";
 		

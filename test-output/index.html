@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test.Tc_005Checkin" class="method navigator-link" hash-for-method="checkin">checkin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test.Tc_002Login" class="method navigator-link" hash-for-method="login(anandhamoorthi@gmail.com, Moorthi@05)">login(anandhamoorthi@gmail.com, Moorthi@05)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,12 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test.Tc_006Flightstatus" class="method navigator-link" hash-for-method="Flightstatus">Flightstatus</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test.Tc_007ManageBooking" class="method navigator-link" hash-for-method="ManageBooking">ManageBooking</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Test.Tc_002Login" class="method navigator-link" hash-for-method="login(anandhamoorthi@gmail.com, Moorthi@05)">login(anandhamoorthi@gmail.com, Moorthi@05)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,12 +113,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test.Tc_002Login" class="method navigator-link" hash-for-method="login(anandhakumarak11@gmail.com, Moorthi@05)">login(anandhakumarak11@gmail.com, Moorthi@05)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Test.Tc_002Login" class="method navigator-link" hash-for-method="login(anandhamoorthi@gmail.com, Moorthi)">login(anandhamoorthi@gmail.com, Moorthi)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test.Tc_002Login" class="method navigator-link" hash-for-method="login(anandhamoorthi@gmail.com, Moorthi)">login(anandhamoorthi@gmail.com, Moorthi)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Test.Tc_002Login" class="method navigator-link" hash-for-method="login(anandhakumarak11@gmail.com, Moorthi@05)">login(anandhakumarak11@gmail.com, Moorthi@05)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -157,9 +133,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">Test.Tc_002Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -169,104 +145,8 @@
                   </a> <!-- login(anandhamoorthi@gmail.com, Moorthi@05) -->
                   <span class="method-name">login</span>
                   <span class="parameters">(anandhamoorthi@gmail.com,Moorthi@05)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [666b84c512b66ea17812d4b5a6c274e8, findElement {using=xpath, value=//*[@type=&apos;email&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HAPPY\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61183/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 666b84c512b66ea17812d4b5a6c274e8
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at Until.Utilize.input(Utilize.java:81)
-	at Base.ProjectSpecification.sendkey(ProjectSpecification.java:39)
-	at Page.Loginpage.email(Loginpage.java:21)
-	at Test.Tc_002Login.login(Tc_002Login.java:19)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 14 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Test.Tc_005Checkin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkin">
-                  </a> <!-- checkin -->
-                  <span class="method-name">checkin</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;css-76zvg2 r-cqee49 r-ubezar r-1ozqkpa&quot; dir=&quot;auto&quot; style=&quot;font-family: inherit;&quot;&gt;...&lt;/div&gt; is not clickable at point (244, 92). Other element would receive the click: &lt;div class=&quot;r-1p0dtai r-1loqt21 r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-1otgn73 css-1dbjc4n&quot; data-focusable=&quot;true&quot; tabindex=&quot;0&quot; style=&quot;background-color: rgba(0, 0, 0, 0.7); opacity: 1;&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=122.0.6261.129)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [666b84c512b66ea17812d4b5a6c274e8, clickElement {id=f.B29094CED037F427DB89EE3FA23C3094.d.19455F3354C74C00D17CF9A8F451DD95.e.225}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HAPPY\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61183/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (666b84c512b66ea17812d4b5a6c274e8)] -&gt; xpath: //*[text()=&apos;check-in&apos;]]
-Session ID: 666b84c512b66ea17812d4b5a6c274e8
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at Until.Utilize.enter(Utilize.java:116)
-	at Base.ProjectSpecification.click(ProjectSpecification.java:53)
-	at Page.Check_inpage.check(Check_inpage.java:15)
-	at Test.Tc_005Checkin.checkin(Tc_005Checkin.java:17)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 14 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Test.Tc_007ManageBooking</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ManageBooking">
-                  </a> <!-- ManageBooking -->
-                  <span class="method-name">ManageBooking</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Test.Tc_002Login</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="login(anandhakumarak11@gmail.com, Moorthi)">
@@ -277,33 +157,18 @@ Session ID: 666b84c512b66ea17812d4b5a6c274e8
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login(anandhakumarak11@gmail.com, Moorthi@05)">
-                  </a> <!-- login(anandhakumarak11@gmail.com, Moorthi@05) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(anandhakumarak11@gmail.com,Moorthi@05)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="login(anandhamoorthi@gmail.com, Moorthi)">
                   </a> <!-- login(anandhamoorthi@gmail.com, Moorthi) -->
                   <span class="method-name">login</span>
                   <span class="parameters">(anandhamoorthi@gmail.com,Moorthi)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Test.Tc_006Flightstatus</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Flightstatus">
-                  </a> <!-- Flightstatus -->
-                  <span class="method-name">Flightstatus</span>
+                  <a name="login(anandhakumarak11@gmail.com, Moorthi@05)">
+                  </a> <!-- login(anandhakumarak11@gmail.com, Moorthi@05) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(anandhakumarak11@gmail.com,Moorthi@05)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -318,12 +183,12 @@ Session ID: 666b84c512b66ea17812d4b5a6c274e8
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Until.Listener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Test.Tc_005Checkin&quot;/&gt;
-      &lt;class name=&quot;Test.Tc_006Flightstatus&quot;/&gt;
       &lt;class name=&quot;Test.Tc_002Login&quot;/&gt;
-      &lt;class name=&quot;Test.Tc_007ManageBooking&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -337,7 +202,7 @@ Session ID: 666b84c512b66ea17812d4b5a6c274e8
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -363,40 +228,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'Test.Tc_002Login')
-data.setCell(0, 3, 234358);
+data.setCell(0, 3, 48015);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Flightstatus')
-data.setCell(1, 2, 'Test.Tc_006Flightstatus')
-data.setCell(1, 3, 220111);
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'Test.Tc_002Login')
+data.setCell(1, 3, 37557);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkin')
-data.setCell(2, 2, 'Test.Tc_005Checkin')
-data.setCell(2, 3, 159137);
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'Test.Tc_002Login')
+data.setCell(2, 3, 32371);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ManageBooking')
-data.setCell(3, 2, 'Test.Tc_007ManageBooking')
-data.setCell(3, 3, 138759);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'login')
-data.setCell(4, 2, 'Test.Tc_002Login')
-data.setCell(4, 3, 104422);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'login')
-data.setCell(5, 2, 'Test.Tc_002Login')
-data.setCell(5, 3, 59116);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login')
-data.setCell(6, 2, 'Test.Tc_002Login')
-data.setCell(6, 3, 50580);
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'Test.Tc_002Login')
+data.setCell(3, 3, 32240);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -422,50 +275,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Test.Tc_005Checkin</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Test.Tc_002Login</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkin</span>
+                <span class="method-name">login(anandhamoorthi@gmail.com, Moorthi@05)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test.Tc_006Flightstatus</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">Flightstatus</span>
-                <span class="method-start">3 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test.Tc_002Login</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login(anandhamoorthi@gmail.com, Moorthi@05)</span>
-                <span class="method-start">5507 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test.Tc_007ManageBooking</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">ManageBooking</span>
-                <span class="method-start">159701 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test.Tc_002Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login(anandhakumarak11@gmail.com, Moorthi)</span>
-                <span class="method-start">239878 ms</span>
+                <span class="method-start">48035 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login(anandhamoorthi@gmail.com, Moorthi)</span>
-                <span class="method-start">344317 ms</span>
+                <span class="method-start">85600 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login(anandhakumarak11@gmail.com, Moorthi@05)</span>
-                <span class="method-start">394904 ms</span>
+                <span class="method-start">117855 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
